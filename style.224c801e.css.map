@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,KACE,iBAAkB,CAClB,gBAAiB,CACjB,iBACF","file":"style.224c801e.css","sourceRoot":"../src","sourcesContent":[".btn {\n  position: absolute;\n  margin-top: 150px;\n  margin-left: 800px;\n}\n"]}
