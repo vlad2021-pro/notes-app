@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["modalBtn","document","getElementById","modalForm"],"mappings":";AAEA,MAAMA,EAAWC,SAASC,eAAe,YACnCC,EAAYF,SAASC,eAAe","file":"src.6904bab9.js","sourceRoot":"../src","sourcesContent":["// ========= модалка\n\nconst modalBtn = document.getElementById('btn-form')\nconst modalForm = document.getElementById('form')\n\n\n\n    "]}
