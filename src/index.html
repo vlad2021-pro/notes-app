@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-
+<div class="windows-bg">
     
 <table class="table table-list" >
   <thead class="table-dark">
@@ -39,14 +39,48 @@
   <button type="button" class="btn btn-success" id="btn-form">Create-notes</button>
 </table>
 
-<div class="mb-3" id="form-notes">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+<form action="/" id="form">
+  <div>
+    <label>
+      Name:
+      <input type="text" name="name" class="input-form">
+    </label>
+  </div>
+  <div>
+    <label>
+      Сreated:
+      <input >
+    </label>
+  </div>
+  <div>
+    <label>
+      <div>
+        Category:
+        <select name="category" class="input-form">
+          <option value="task" selected>Task</option>
+          <option value="random">Random Thought</option>
+          <option value="idea">Idea</option>
+        </select>
+      </div>
+      Сontent:
+      <input class="input-form">
+    </label>
+  </div>
+  <div>
+    <label>
+      Dates:
+      <input class="input-form">
+    </label>
+  </div>
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>
 </div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
+
+
+
 
     <script src="./index.js"></script>
   </body>
